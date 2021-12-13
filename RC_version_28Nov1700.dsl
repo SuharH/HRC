@@ -248,7 +248,7 @@ workspace "Hospital Room Control (HRC) workspace" "This workspace documents the 
 		dynamic hrc "HRC_Container_Dynamic_View" "HRC Container Dynamics"  {
 			exchanger -> recordStorage
 			exchanger -> recordModification 
-			exchanger -> hrc
+			//exchanger -> hrc
 			exchanger -> rrs
         }
 		
@@ -272,7 +272,7 @@ workspace "Hospital Room Control (HRC) workspace" "This workspace documents the 
 		dynamic rrs "RRS_Container_Dynamic_View" "RRS Container Dynamics"  {
 			dataCollector -> dataSetter
 			dataCollector -> dataGetter 
-			exchanger -> hrc
+			//exchanger -> hrc
         }
 	}
 }
